@@ -26,6 +26,7 @@ public class ClickMethod {
 //act.click(signInButton).perform();
 
 		// OR
+		
 		act.moveToElement(signInButton).click().build().perform();
 
 	}
