@@ -28,6 +28,9 @@ public class ClickMethod {
 		// OR
 		
 		act.moveToElement(signInButton).click().build().perform();
+		
+		
+		// comment1
 
 	}
 
