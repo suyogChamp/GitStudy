@@ -10,6 +10,7 @@ public class MyTest1 {
   {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 	
   }
